@@ -1,0 +1,45 @@
+.add-video-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-video-page h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
