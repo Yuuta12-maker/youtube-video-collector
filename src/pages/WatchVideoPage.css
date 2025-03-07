@@ -1,0 +1,124 @@
+.watch-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video-container {
+  width: 100%;
+  position: relative;
+  padding-top: 56.25%; /* 16:9のアスペクト比 */
+  background-color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-info {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .video-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.video-title {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+  flex: 1;
+}
+
+.video-actions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.btn-icon {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s;
+}
+
+.favorite-active {
+  color: gold;
+  font-weight: bold;
+  border-color: gold;
+}
+
+.video-meta {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.video-notes {
+  margin-top: 20px;
+}
+
+.video-notes h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.watch-status {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.status-未視聴 {
+  color: #757575;
+}
+
+.status-視聴中 {
+  color: #2196F3;
+  font-weight: bold;
+}
+
+.status-視聴済み {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.loading, .error-container, .not-found {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+}
+
+.error-message {
+  color: #f44336;
+  margin-bottom: 20px;
+}
