@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/youtube-video-collector/static/css/main.35d1113d.css",
+    "main.js": "/youtube-video-collector/static/js/main.b50d1e1b.js",
+    "index.html": "/youtube-video-collector/index.html",
+    "main.35d1113d.css.map": "/youtube-video-collector/static/css/main.35d1113d.css.map",
+    "main.b50d1e1b.js.map": "/youtube-video-collector/static/js/main.b50d1e1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35d1113d.css",
+    "static/js/main.b50d1e1b.js"
+  ]
+}
